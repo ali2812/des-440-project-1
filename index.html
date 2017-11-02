@@ -29,8 +29,8 @@
     </head>
 
 <body>
-     <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/backtotop.png" style="width:75px;height:auto;"></button>
-      <section class="showcase">
+     <button onclick="topFunction('#top')" id="myBtn" title="Go to top"><img src="images/backtotop.png" style="width:75px;height:auto;"></button>
+      <section class="showcase" id="top">
       <div class="top">
      	  
       	  <img src="images/squiggle.png" alt="squiggle">
@@ -41,7 +41,7 @@
 			  </div>
        	<div class="honolulu">
 			<h1></h1>
-       		<img src="images/dead.jpg" alt="broke" style="width:405px;height:auto;">
+       		<img src="images/dead.jpg" alt="broke">
        	</div>
         	
 		  </div>
@@ -134,10 +134,6 @@
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	
-<script type="text/javascript">
-	function topFunction(){
-		alert('hi');
-	}
-	</script>
+<script type="text/javascript" src="js/main.js"></script>
 
 </html>
